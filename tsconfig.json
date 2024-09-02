@@ -9,7 +9,9 @@
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
       "sourceMap": true,
-      "outDir": "build"
+      "outDir": "build",
+      "typeRoots": ["node_modules/@types"],
+      "types": ["node"]
   },
   "exclude": [
       "node_modules"
